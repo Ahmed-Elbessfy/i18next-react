@@ -2,5 +2,11 @@
   "greeting": "مرحبا أيها العالم",
   "freePalestine": "فلسطين حرة",
   "talkSource": "هذه المحاضرة مقدمة من : {{providerName}}",
-  "arabicOnly": "هذا المحتوى متاح فقط باللغة العربية"
+  "arabicOnly": "هذا المحتوى متاح فقط باللغة العربية",
+  "developer": {
+    "bug": "{{bug}} هو خبر سيء"
+  },
+  "entomologist": {
+    "bug": "{{bug}} هو مخلوق رائع"
+  }
 }

@@ -69,6 +69,15 @@ function App() {
         <p>{t("extra", { ns: "extraNs" })}</p>
         <p>{t("does_not_exist", { ns: "extraNs" })}</p>
       </div> */}
+
+      <div>
+        <p className="heading">
+          Nesting
+          <span>=&gt;</span>
+        </p>
+        <p>{t("developer.bug", { bug: "Bug" })}</p>
+        <p>{t("entomologist.bug", { bug: "Bug" })}</p>
+      </div>
     </div>
   );
 }

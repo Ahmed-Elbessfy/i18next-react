@@ -1,5 +1,11 @@
 {
   "greeting": "Hello World!",
   "freePalestine": "Free Palestine",
-  "talkSource": "This talk is provided by : {{providerName}}"
+  "talkSource": "This talk is provided by : {{providerName}}",
+  "developer": {
+    "bug": "{{bug}} is a bad news"
+  },
+  "entomologist": {
+    "bug": "{{bug}} is an magnificent creature"
+  }
 }
