@@ -18,14 +18,14 @@ function App() {
 
       <hr />
 
-      {/* <div>
+      <div>
         <p className="heading">
           Basic case
           <span>=&gt;</span>
         </p>
         <p>{t("greeting")}</p>
         <p>{t("freePalestine")}</p>
-      </div> */}
+      </div>
 
       {/* <div>
         <p className="heading">
@@ -101,7 +101,7 @@ function App() {
         <p>{t("ball", { count: 11 })}</p>
       </div> */}
 
-      <div>
+      {/* <div>
         <p className="heading">
           Formatting numbers, currency & time
           <span>=&gt;</span>
@@ -137,7 +137,7 @@ function App() {
             },
           })}
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }
