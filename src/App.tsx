@@ -5,7 +5,7 @@ function App() {
   const { t, i18n } = useTranslation("translation");
 
   return (
-    <div>
+    <div dir={i18n.language === "ar" ? "rtl" : "ltr"}>
       <h1>Internationalization (i18n) with I18next</h1>
       <select onChange={(event) => i18n.changeLanguage(event.target.value)}>
         {[
@@ -27,7 +27,7 @@ function App() {
         <p>{t("freePalestine")}</p>
       </div> */}
 
-      <div>
+      {/* <div>
         <p className="heading">
           Interpolation <span>=&gt;</span>
         </p>
@@ -35,6 +35,21 @@ function App() {
           {t("talkSource", {
             providerName: "Squadio",
           })}
+        </p>
+      </div> */}
+
+      <div>
+        <p className="heading">
+          Importance of "dir" attribute
+          <span>=&gt;</span>
+        </p>
+
+        <textarea rows={5} dir="auto" placeholder="with dir"></textarea>
+        <textarea rows={5} placeholder="without dir"></textarea>
+        <p>
+          <a href="https://youtu.be/05eEIpz-azs?list=PLNIpzzGero27nbWPOfWSyA7p8XwuBGRBO">
+            Building Multilingual Apps - untyped podcast by Abdelrahman Awad
+          </a>
         </p>
       </div>
     </div>
