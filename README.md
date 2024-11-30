@@ -26,7 +26,7 @@ This project demonstrates internationalization (i18n) in a React application usi
 1- Clone repository:
 
 ```bash
-    git clone https://github.com/Ahmed-Elbessfy/i18n-react
+    git clone https://github.com/Ahmed-Elbessfy/i18next-react
 ```
 
 2- Install Dependencies
