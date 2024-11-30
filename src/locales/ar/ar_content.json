@@ -1,5 +1,6 @@
 {
   "greeting": "مرحبا أيها العالم",
   "freePalestine": "فلسطين حرة",
-  "talkSource": "هذه المحاضرة مقدمة من : {{providerName}}"
+  "talkSource": "هذه المحاضرة مقدمة من : {{providerName}}",
+  "arabicOnly": "هذا المحتوى متاح فقط باللغة العربية"
 }

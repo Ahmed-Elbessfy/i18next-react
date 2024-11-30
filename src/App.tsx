@@ -38,7 +38,7 @@ function App() {
         </p>
       </div> */}
 
-      <div>
+      {/* <div>
         <p className="heading">
           Importance of "dir" attribute
           <span>=&gt;</span>
@@ -51,7 +51,15 @@ function App() {
             Building Multilingual Apps - untyped podcast by Abdelrahman Awad
           </a>
         </p>
-      </div>
+      </div> */}
+
+      {/* <div>
+        <p className="heading">
+          One language text
+          <span>=&gt;</span>
+        </p>
+        <p>{t("arabicOnly", { lng: "ar" })}</p>
+      </div> */}
     </div>
   );
 }
