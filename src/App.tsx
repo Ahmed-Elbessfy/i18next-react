@@ -79,13 +79,26 @@ function App() {
         <p>{t("entomologist.bug", { bug: "Bug" })}</p>
       </div> */}
 
-      <div>
+      {/* <div>
         <p className="heading">
           Context
           <span>=&gt;</span>
         </p>
         <p>{t("bug", { context: "developer", bug: "Bug" })}</p>
         <p>{t("bug", { context: "entomologist", bug: "Bug" })}</p>
+      </div> */}
+
+      <div>
+        <p className="heading">
+          Pluralization
+          <span>=&gt;</span>
+        </p>
+
+        <p>{t("ball", { count: 0 })}</p>
+        <p>{t("ball", { count: 1 })}</p>
+        <p>{t("ball", { count: 2 })}</p>
+        <p>{t("ball", { count: 5 })}</p>
+        <p>{t("ball", { count: 11 })}</p>
       </div>
     </div>
   );
