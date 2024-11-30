@@ -7,5 +7,7 @@
   },
   "entomologist": {
     "bug": "{{bug}} is an magnificent creature"
-  }
+  },
+  "bug_developer": "{{bug}} is a bad news",
+  "bug_entomologist": "{{bug}} is an magnificent creature"
 }

@@ -8,5 +8,7 @@
   },
   "entomologist": {
     "bug": "{{bug}} هو مخلوق رائع"
-  }
+  },
+  "bug_developer": "{{bug}} هو خبر سيء",
+  "bug_entomologist": "{{bug}} هو مخلوق رائع"
 }

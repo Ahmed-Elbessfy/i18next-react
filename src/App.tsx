@@ -70,13 +70,22 @@ function App() {
         <p>{t("does_not_exist", { ns: "extraNs" })}</p>
       </div> */}
 
-      <div>
+      {/* <div>
         <p className="heading">
           Nesting
           <span>=&gt;</span>
         </p>
         <p>{t("developer.bug", { bug: "Bug" })}</p>
         <p>{t("entomologist.bug", { bug: "Bug" })}</p>
+      </div> */}
+
+      <div>
+        <p className="heading">
+          Context
+          <span>=&gt;</span>
+        </p>
+        <p>{t("bug", { context: "developer", bug: "Bug" })}</p>
+        <p>{t("bug", { context: "entomologist", bug: "Bug" })}</p>
       </div>
     </div>
   );
