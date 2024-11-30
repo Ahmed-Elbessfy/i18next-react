@@ -1,4 +1,5 @@
 {
   "greeting": "Hello World!",
-  "freePalestine": "Free Palestine"
+  "freePalestine": "Free Palestine",
+  "talkSource": "This talk is provided by : {{providerName}}"
 }

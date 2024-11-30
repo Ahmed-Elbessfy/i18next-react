@@ -18,13 +18,24 @@ function App() {
 
       <hr />
 
-      <div>
+      {/* <div>
         <p className="heading">
           Basic case
           <span>=&gt;</span>
         </p>
         <p>{t("greeting")}</p>
         <p>{t("freePalestine")}</p>
+      </div> */}
+
+      <div>
+        <p className="heading">
+          Interpolation <span>=&gt;</span>
+        </p>
+        <p dir={i18n.language === "ar" ? "rtl" : "ltr"}>
+          {t("talkSource", {
+            providerName: "Squadio",
+          })}
+        </p>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 {
   "greeting": "مرحبا أيها العالم",
-  "freePalestine": "فلسطين حرة"
+  "freePalestine": "فلسطين حرة",
+  "talkSource": "هذه المحاضرة مقدمة من : {{providerName}}"
 }
