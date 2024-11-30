@@ -11,5 +11,9 @@
   "bug_developer": "{{bug}} is a bad news",
   "bug_entomologist": "{{bug}} is an magnificent creature",
   "ball_one": "there are only one ball in the field",
-  "ball_other": "there are {{count}} balls in the field."
+  "ball_other": "there are {{count}} balls in the field.",
+  "formattedNumber": "this is a formatted number : {{number, number}}",
+  "formattedCurrency": "This is a {{amount, currency(currency:USD)}}",
+  "formattedDate": "Today's date is  {{date, datetime }}",
+  "formattedTime": "Current Time is : {{time, datetime }}"
 }

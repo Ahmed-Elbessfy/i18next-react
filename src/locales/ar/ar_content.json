@@ -15,5 +15,9 @@
   "ball_one": "يوجد كرة واحدة فقط في الملعب",
   "ball_two": "يوجد كرتين في الملعب",
   "ball_few": "يوجد بضع كرات في الملعب",
-  "ball_many": "يوجد عدد {{count}} كرات في الملعب"
+  "ball_many": "يوجد عدد {{count}} كرات في الملعب",
+  "formattedNumber": "هذا الرقم ذو صيغة خاصة : {{number, number}}",
+  "formattedCurrency": "هذا الرقم يمثل {{amount, currency(currency:EGP)}}",
+  "formattedDate": "تاريخ اليوم هو : {{date, datetime }}",
+  "formattedTime": "الوقت الحالي : {{time, datetime }}"
 }

@@ -88,7 +88,7 @@ function App() {
         <p>{t("bug", { context: "entomologist", bug: "Bug" })}</p>
       </div> */}
 
-      <div>
+      {/* <div>
         <p className="heading">
           Pluralization
           <span>=&gt;</span>
@@ -99,6 +99,44 @@ function App() {
         <p>{t("ball", { count: 2 })}</p>
         <p>{t("ball", { count: 5 })}</p>
         <p>{t("ball", { count: 11 })}</p>
+      </div> */}
+
+      <div>
+        <p className="heading">
+          Formatting numbers, currency & time
+          <span>=&gt;</span>
+        </p>
+        <p>
+          {t("formattedNumber", {
+            number: 12345.6789,
+            minimumFractionDigits: 5,
+          })}
+        </p>
+        <p>
+          {t("formattedNumber", {
+            number: 12345.6789,
+            formatParams: {
+              number: {
+                maximumFractionDigits: 3,
+              },
+            },
+          })}
+        </p>
+
+        <p>{t("formattedCurrency", { amount: 123344556 })}</p>
+        <p>{t("formattedDate", { date: new Date() })}</p>
+        <p>
+          {t("formattedTime", {
+            time: new Date(),
+            formatParams: {
+              time: {
+                hour: "numeric",
+                minute: "numeric",
+                second: "numeric",
+              },
+            },
+          })}
+        </p>
       </div>
     </div>
   );
