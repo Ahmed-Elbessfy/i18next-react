@@ -60,6 +60,15 @@ function App() {
         </p>
         <p>{t("arabicOnly", { lng: "ar" })}</p>
       </div> */}
+
+      {/* <div>
+        <p className="heading">
+          Multiple name spaces & Debugging Option
+          <span>=&gt;</span>
+        </p>
+        <p>{t("extra", { ns: "extraNs" })}</p>
+        <p>{t("does_not_exist", { ns: "extraNs" })}</p>
+      </div> */}
     </div>
   );
 }

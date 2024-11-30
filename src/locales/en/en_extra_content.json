@@ -1,1 +1,3 @@
-{}
+{
+  "extra": "This is an extra content to test separation of translation into more than one file"
+}
