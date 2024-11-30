@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import "./App.css";
 
 function App() {
-  const { i18n } = useTranslation("translation");
+  const { t, i18n } = useTranslation("translation");
 
   return (
     <div>
@@ -17,6 +17,15 @@ function App() {
       </select>
 
       <hr />
+
+      <div>
+        <p className="heading">
+          Basic case
+          <span>=&gt;</span>
+        </p>
+        <p>{t("greeting")}</p>
+        <p>{t("freePalestine")}</p>
+      </div>
     </div>
   );
 }
