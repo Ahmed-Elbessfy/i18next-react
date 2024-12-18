@@ -33,7 +33,7 @@ function App() {
         </p>
         <p dir={i18n.language === "ar" ? "rtl" : "ltr"}>
           {t("talkSource", {
-            providerName: "Squadio",
+            providerName: "EgyptJS",
           })}
         </p>
       </div> */}
